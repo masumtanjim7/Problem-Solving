@@ -41,6 +41,12 @@ void merge(int arr[], int l, int mid, int r){
     }
 }
 
+void show(int *arr, int size) {
+ for (int i = 0; i < size; i++)
+ std::cout << arr[i] << " ";
+ std::cout << "\n";
+}
+
 void mergeSort(int arr[], int l, int r){
     if (l<r){
       int mid = (l+r)/2;
@@ -51,28 +57,18 @@ void mergeSort(int arr[], int l, int r){
     }
 }
 
-
-int main()
-{
-
-
-//int arr[]={5,4,3,2,1};
-//mergeSort(arr,0,5);
-//for(int i=0;i<5;i++){
-//    cout<<arr[i]<<" ";
-//}
-//cout<<endl;
-    int n;
-    cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++)
-    {
-        cin>>arr[i];
-    }
-    mergeSort(arr,0,n-1);
-    for(int i=0;i<n;i++){
-    cout<<arr[n]<<" ";
-    }
-cout<<endl;
-return 0;
+int main() {
+ int size;
+ std::cout << "Enter the number of elements : ";
+ std::cin >> size;
+ int *arr = new int[size];
+ std::cout << "Enter the unsorted elements : ";
+ for (int i = 0; i < size; ++i) {
+ std::cin >> arr[i];
+ }
+ mergeSort(arr, 0, size - 1);
+ std::cout << "Sorted array : ";
+ show(arr, size);
+ delete[] arr;
+ return 0;
 }
