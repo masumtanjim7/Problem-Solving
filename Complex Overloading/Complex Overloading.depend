@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1674671424 source:c:\users\masum\documents\complex overloading\complex.cpp
+	"complex.h"
+	<iostream>
+
+1674671442 c:\users\masum\documents\complex overloading\complex.h
+
+1674662644 source:c:\users\masum\documents\complex overloading\main.cpp
+	<iostream>
+	"complex.h"
+
