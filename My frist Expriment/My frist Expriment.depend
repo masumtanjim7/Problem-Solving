@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1674674240 source:c:\users\masum\documents\my frist expriment\masum.cpp
+	<iostream>
+
+1674674008 source:c:\users\masum\documents\my frist expriment\main.cpp
+	<iostream>
+	"masum.h"
+
+1674673692 c:\users\masum\documents\my frist expriment\masum.cpp
+	<iostream>
+
+1674673953 c:\users\masum\documents\my frist expriment\masum.h
+
