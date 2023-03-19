@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1675788190 source:c:\users\masum\documents\unsorted list array adt\main.cpp
+	<iostream>
+	"unsortedtype.cpp"
+
+1675787236 source:c:\users\masum\documents\unsorted list array adt\unsortedtype.cpp
+	"UnsortedType.h"
+
+1675787294 c:\users\masum\documents\unsorted list array adt\unsortedtype.h
+
+1675787236 c:\users\masum\documents\unsorted list array adt\unsortedtype.cpp
+	"UnsortedType.h"
+
