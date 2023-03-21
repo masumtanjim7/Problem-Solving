@@ -6,44 +6,79 @@ public:
     int data;
     Node *next;
 };
-Node*head=NULL;
+
+Node *head = NULL;
 
 void inserAtHead(int value){
-    Node *new_node= new Node;
-    new_node->data=value;
-    new_node->next=head;
-    head=new_node;
+Node *new_node = new Node;
+new_node->data = value;
+new_node->next = head;
+head = new_node;
 }
 
-void insertAtTail(int value){
-    Node *new_node = new Node;
-    new_node->data = value;
-    new_node->next = NULL;
+void inserAtTail(int value){
+     Node *new_node = new Node;
+     new_node->data = value;
+     new_node->next = NULL;
 
-    Node *temp = head;
-    if(temp == NULL){
+     Node *temp = head;
+
+     if (temp == NULL){
         head = new_node;
-    }else{
+     }
+     else {
         while(temp->next != NULL){
             temp = temp->next;
         }
         temp->next = new_node;
-    }
+     }
 }
 
-void print()
-{
-    Node*temp=head;
-    while (temp!=NULL){
-        cout<<temp->data<<"->";
-        temp=temp->next;
-    }
+void deleteFromHead(){
+     if (head != NULL){
+        Node *toBeDeleted = head;
+        head = head->next;
+        delete toBeDeleted;
+     }
+     else{
+        cout<<"Underflow/List is Empty"<<endl;
+     }
 }
 
-int main()
+void print(){
+     Node *temp = head ;
+     while(temp != NULL){
+        cout<< temp->data<<",";
+        temp = temp->next;
+     }
+     cout<<endl;
+}
+
+int main ()
 {
-    inserAtHead(5);
-    inserAtHead(8);
-    inserAtHead(3);
+    inserAtHead(6);
+    inserAtHead(7);
+    inserAtHead(4);
+    inserAtTail(5);
+    inserAtTail(8);
+    inserAtTail(3);
+
     print();
+
+    deleteFromHead();
+    print();
+    deleteFromHead();
+    print();
+    deleteFromHead();
+    print();
+    deleteFromHead();
+    print();
+    deleteFromHead();
+    print();
+    deleteFromHead();
+    print();
+
+    deleteFromHead();
+
+return 0;
 }
