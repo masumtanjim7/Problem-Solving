@@ -6,7 +6,6 @@ int main()
 {
     stack <string> M;
 
-    M.push("Zarin");
     M.push("Masum");
     M.push("Hasan");
     M.push("Tanjim");
