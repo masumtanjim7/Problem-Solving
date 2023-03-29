@@ -1,6 +1,9 @@
-//This Main.cpp file Belongs to my honarable Teacher Mehadi Hasan Bijoy
-//This Main.cpp file Belongs to my honarable Teacher Mehadi Hasan Bijoy
-//This Main.cpp file Belongs to my honarable Teacher Mehadi Hasan Bijoy
+
+//This main.cpp file belongs to my honarable Teacher "Mehadi Hasan Bijoy"
+//This main.cpp file belongs to my honarable Teacher "Mehadi Hasan Bijoy"
+//This main.cpp file belongs to my honarable Teacher "Mehadi Hasan Bijoy"
+
+
 #include <iostream>
 #include "StackType.cpp"
 #include <string>
