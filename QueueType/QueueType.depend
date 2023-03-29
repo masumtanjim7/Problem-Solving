@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1680113691 source:c:\users\masum\documents\queuetype\queuetype.cpp
+	"QueueType.h"
+	<iostream>
+
+1680113601 c:\users\masum\documents\queuetype\queuetype.h
+
