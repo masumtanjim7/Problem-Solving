@@ -14,7 +14,7 @@ public:
 
 int main()
 {
-    //base b_obj;
+    base b_obj;
     derive d_obj;
     base *bptr;
 
