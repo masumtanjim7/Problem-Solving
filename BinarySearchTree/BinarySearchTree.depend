@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1681319462 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\main.cpp
+	<iostream>
+	"BinarySearchTree.cpp"
+
+1681318981 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\queuetype.cpp
+	"QueueType.h"
+	<iostream>
+
+1681318979 c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\queuetype.h
+
+1681319151 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\binarysearchtree.cpp
+	"BinarySearchTree.h"
+	"QueueType.cpp"
+	<iostream>
+
+1681319128 c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\binarysearchtree.h
+	"QueueType.h"
+
+1681319151 c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\binarysearchtree.cpp
+	"BinarySearchTree.h"
+	"QueueType.cpp"
+	<iostream>
+
+1681318981 c:\users\masum\onedrive\documents\masum's msi\code blocks\binarysearchtree\queuetype.cpp
+	"QueueType.h"
+	<iostream>
+
