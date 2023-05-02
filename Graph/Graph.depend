@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1683051608 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\graph.cpp
+	"Graph.h"
+	"StackType.cpp"
+	"Queuetype.cpp"
+	<iostream>
+
+1683051610 c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\graph.h
+	"StackType.h"
+	"QueueType.h"
+
+1683051616 c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\stacktype.h
+
+1683051613 c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\queuetype.h
+
+1683051614 c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\stacktype.cpp
+	<iostream>
+	"StackType.h"
+
+1683051611 c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\queuetype.cpp
+	"QueueType.h"
+	<iostream>
+
+1683051606 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\main.cpp
+	<iostream>
+	"Graph.cpp"
+
+1683051608 c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\graph.cpp
+	"Graph.h"
+	"StackType.cpp"
+	"Queuetype.cpp"
+	<iostream>
+
+1683051611 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\queuetype.cpp
+	"QueueType.h"
+	<iostream>
+
+1683051614 source:c:\users\masum\onedrive\documents\masum's msi\code blocks\graph\stacktype.cpp
+	<iostream>
+	"StackType.h"
+
