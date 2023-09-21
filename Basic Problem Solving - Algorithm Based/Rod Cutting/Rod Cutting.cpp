@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int knapSack(int weight[],int benefit[],int k,int n)
+int Rodcut(int weight[],int benefit[],int k,int n)
 {
     int ans[n+1][k+1];
     for(int i=0; i<=k; i++)
@@ -32,16 +32,17 @@ int main()
 {
     int n,weight[50],benefit[50],k;
 
-    cout<<"How many Products : ";
+    cout<<"Length of Your Rod : ";
     cin>>n;
+    cout<< "\nWeight | Benefit"<<endl;
     for(int i=1; i<=n; i++)
     {
         cin>>weight[i]>>benefit[i];
     }
-    cout<<"Total Capacity of Bag : ";
+    cout<<"How Many cut you want in Rod  : ";
     cin>>k;
 
-    int total_benefit=knapSack(weight,benefit,k,n);
+    int total_benefit=Rodcut(weight,benefit,k,n);
 
     cout<<"Total Benefit : "<<total_benefit<<endl;
 
